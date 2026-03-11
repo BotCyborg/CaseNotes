@@ -22,11 +22,9 @@ Because therapy sessions contain highly sensitive information, the system is bei
 - explicit access controls
 - least-privilege infrastructure design
 
-Although the project began as a solution to a real operational challenge, the platform is being designed for broader use by therapists, counsellors, and clinical practitioners with similar documentation workloads.
+Although the project began as a tool to solve a real operational challenge for one counsellor, the architecture is being designed to support broader use by clinical psychologists, therapists, and counsellors who face similar documentation workloads.
 
-This repository contains the code and documentation for the platform, along with the phased roadmap that moves the system from a secure foundation to a fuller clinical documentation workflow.
-
-The current implemented milestone is **Phase 1A**, which establishes the secure application and deployment baseline for later work.
+This repository contains the code and documentation for the platform, along with the development roadmap that will guide the system from a secure foundation to a fully featured clinical documentation workflow.
 
 Additional docs:
 
