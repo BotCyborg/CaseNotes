@@ -1,3 +1,10 @@
+# Case Notes
+
+AI-assisted clinical documentation for therapists, built with privacy and security at its core.
+
+⚠️ Early development project  
+Current milestone: Phase 1A — Secure authentication foundation
+
 # Project Overview
 
 Case Notes is a privacy-first clinical documentation platform currently under active development.
