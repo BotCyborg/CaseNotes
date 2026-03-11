@@ -1,10 +1,10 @@
 # Project Overview
 
-Case Notes is a privacy-first clinical documentation platform under active development.
+Case Notes is a privacy-first clinical documentation platform currently under active development.
 
-The project started as a practical response to a real workflow problem: therapists with heavy caseloads often spend a large amount of time outside sessions writing case notes, summarising conversations, and documenting client progress.
+The project started as a practical solution to a real problem: managing clinical documentation for therapists with heavy caseloads.
 
-That administrative burden is significant. It takes time and energy away from the work that matters most: direct client care.
+My wife is an addiction counsellor who conducts multiple therapy sessions each day. Like many clinicians, a significant portion of her time outside sessions is spent writing case notes, summarising conversations, and documenting progress for each client. This administrative workload can quickly become overwhelming and takes time away from the work that matters most — helping clients.
 
 Case Notes aims to reduce that burden by helping transform recorded therapy sessions into structured clinical documentation.
 
