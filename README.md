@@ -1,6 +1,30 @@
 # Project Overview
 
-Case Notes is a privacy-first clinical documentation platform under active development. This repository is the home for the full product roadmap, not just a single milestone.
+Case Notes is a privacy-first clinical documentation platform under active development.
+
+The project started as a practical response to a real workflow problem: therapists with heavy caseloads often spend a large amount of time outside sessions writing case notes, summarising conversations, and documenting client progress.
+
+That administrative burden is significant. It takes time and energy away from the work that matters most: direct client care.
+
+Case Notes aims to reduce that burden by helping transform recorded therapy sessions into structured clinical documentation.
+
+The long-term goal is a secure workflow where a therapist can upload a session recording and receive:
+
+- a structured transcript with speaker separation
+- a concise clinical session summary
+- professional case notes in formats commonly used in therapy practice, including GRIP notes
+- ongoing summaries of client progress over time
+
+Because therapy sessions contain highly sensitive information, the system is being designed from the start with strong privacy and security principles. The architecture prioritizes:
+
+- minimal exposure of sensitive data
+- secure handling of recordings and transcripts
+- explicit access controls
+- least-privilege infrastructure design
+
+Although the project began as a solution to a real operational challenge, the platform is being designed for broader use by therapists, counsellors, and clinical practitioners with similar documentation workloads.
+
+This repository contains the code and documentation for the platform, along with the phased roadmap that moves the system from a secure foundation to a fuller clinical documentation workflow.
 
 The current implemented milestone is **Phase 1A**, which establishes the secure application and deployment baseline for later work.
 
@@ -8,6 +32,32 @@ Additional docs:
 
 - [Security Model](docs/security-model.md)
 - [Cloud Run Deployment](docs/cloud-run-deployment.md)
+
+# High-Level Architecture
+
+The long-term system is designed as a modular pipeline:
+
+```text
+Session Audio
+      ↓
+Audio Ingestion
+      ↓
+Speech-to-Text + Speaker Diarization
+      ↓
+Structured Transcript
+      ↓
+LLM Processing
+      ↓
+Clinical Case Notes
+      ↓
+Secure Storage and Retrieval
+```
+
+This architecture becomes more relevant as later phases introduce:
+
+- transcription workers
+- secure storage
+- LLM processing
 
 # Project Roadmap
 
